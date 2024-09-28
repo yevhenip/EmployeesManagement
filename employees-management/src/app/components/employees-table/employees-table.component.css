@@ -1,0 +1,14 @@
+.wrapper {
+  height: 90%;
+  width: 90%;
+  margin: auto;
+}
+
+.table {
+  width: 100%;
+}
+
+.button-container {
+  padding-bottom: 16px;
+  margin-top: 16px;
+}

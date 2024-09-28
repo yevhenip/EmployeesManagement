@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\EmployeesManagement.Core.Contracts\EmployeesManagement.Core.Contracts.csproj" />
+      <ProjectReference Include="..\EmployeesManagement.Core.Persistence\EmployeesManagement.Core.Persistence.csproj" />
+      <ProjectReference Include="..\EmployeesManagement.Core\EmployeesManagement.Core.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Mapster.DependencyInjection" Version="1.0.1" />
+    </ItemGroup>
+
+</Project>
